@@ -1,1 +1,1 @@
-<a href=" https://ahmedyasserdev.github.io/Age_Calculator_App/"><strong>➥ Live Preview</strong></a>
+<a href="https://ahmedyasserdev.github.io/Age_Calculator_App/"><strong>➥ Live Preview</strong></a>
