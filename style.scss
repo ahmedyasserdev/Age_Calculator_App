@@ -48,24 +48,26 @@ small {
 }
 
 label {
-    color : $Offblack ;
+    color: $Offblack ;
     text-transform: uppercase;
     font-size: 1.5rem;
+    text-align: start;
+    margin-left: 2rem;
 
 }
 
 
 .container {
     background-color: $White;
-    width: 60rem;
+    width: 80rem;
     height: 60rem;
     padding: 5rem;
     position: relative;
-    border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
+    border-radius: 2.3rem;
+    -webkit-border-radius: 2.3rem;
+    -moz-border-radius: 2.3rem;
+    -ms-border-radius: 2.3rem;
+    -o-border-radius: 2.3rem;
     border-bottom-right-radius: 15rem;
 
     .input-flex {
@@ -82,7 +84,7 @@ label {
     }
 
     input {
-        width: 11rem;
+        width: 15rem;
         padding: 1rem;
         border-radius: 0.5rem;
         -moz-border-radius: 0.5rem;
@@ -90,17 +92,25 @@ label {
         -o-border-radius: 0.5rem;
         -webkit-border-radius: 0.5rem;
         border: 2px solid $Lightgrey ;
+
         font: {
-            size : 2.5rem ;
-            weight : 800 ;
-        };
+            size: 2.5rem;
+            weight: 800;
+        }
+
+        ;
 
         &:focus {
             border: 2px solid $Purple;
         }
 
         &::placeholder {
-            color : $Lightgrey ;
+            color: $Smokeygrey ;
+            font-size: 3rem;
+        }
+
+        &:nth-child(2) {
+            margin: 0 2rem;
         }
     }
 
@@ -148,6 +158,6 @@ label {
             font-size: 6rem;
         }
 
-      
+
     }
 }

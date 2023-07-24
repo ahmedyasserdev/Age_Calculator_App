@@ -44,19 +44,21 @@ label {
   color: hsl(0, 0%, 8%);
   text-transform: uppercase;
   font-size: 1.5rem;
+  text-align: start;
+  margin-left: 2rem;
 }
 
 .container {
   background-color: hsl(0, 0%, 100%);
-  width: 60rem;
+  width: 80rem;
   height: 60rem;
   padding: 5rem;
   position: relative;
-  border-radius: 2rem;
-  -webkit-border-radius: 2rem;
-  -moz-border-radius: 2rem;
-  -ms-border-radius: 2rem;
-  -o-border-radius: 2rem;
+  border-radius: 2.3rem;
+  -webkit-border-radius: 2.3rem;
+  -moz-border-radius: 2.3rem;
+  -ms-border-radius: 2.3rem;
+  -o-border-radius: 2.3rem;
   border-bottom-right-radius: 15rem;
 }
 .container .input-flex {
@@ -70,7 +72,7 @@ label {
   flex-direction: column;
 }
 .container input {
-  width: 11rem;
+  width: 15rem;
   padding: 1rem;
   border-radius: 0.5rem;
   -moz-border-radius: 0.5rem;
@@ -85,10 +87,15 @@ label {
   border: 2px solid hsl(259, 100%, 65%);
 }
 .container input::-moz-placeholder {
-  color: hsl(0, 0%, 86%);
+  color: hsl(0, 1%, 44%);
+  font-size: 3rem;
 }
 .container input::placeholder {
-  color: hsl(0, 0%, 86%);
+  color: hsl(0, 1%, 44%);
+  font-size: 3rem;
+}
+.container input:nth-child(2) {
+  margin: 0 2rem;
 }
 .container .submit-btn {
   width: 7rem;
