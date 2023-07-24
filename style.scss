@@ -53,17 +53,23 @@ small {
     height: 50rem;
     padding: 5rem;
     position: relative;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
     border-bottom-right-radius: 15rem;
 
     .input-flex {
         display: flex;
         gap: 1rem;
-        border-bottom: 2px solid $Offblack;
-        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid $Lightgrey;
 
         .input-container {
             display: flex;
             flex-direction: column;
+
         }
     }
 
@@ -75,6 +81,7 @@ small {
         -ms-border-radius: 0.5rem;
         -o-border-radius: 0.5rem;
         -webkit-border-radius: 0.5rem;
+        border: 2px solid $Lightgrey ;
 
         &:focus {
             border: 2px solid $Purple;
@@ -103,6 +110,7 @@ small {
         &:hover {
             background-color: $Offblack;
         }
+
         @media (max-width: 767px) {
             right: 40%;
         }
